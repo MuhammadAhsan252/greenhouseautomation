@@ -1,0 +1,170 @@
+
+/* Custom CSS for Green House Future */
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link.active {
+    color: #198754 !important;
+    border-bottom: 2px solid #198754;
+    padding-bottom: 0.25rem !important;
+}
+
+/* Hover effects */
+.service-card:hover,
+.solution-card:hover,
+.blog-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.solution-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.blog-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Custom button styles */
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+
+.btn-outline-success:hover {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* Blog category buttons */
+.category-btn.active {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+    color: white !important;
+}
+
+/* Article content styling */
+.article-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #495057;
+}
+
+.article-content h2 {
+    color: #212529;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.article-content h3 {
+    color: #212529;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.article-content p {
+    margin-bottom: 1.25rem;
+}
+
+/* Hero section animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .display-5 {
+        font-size: 1.75rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Custom utilities */
+.text-success {
+    color: #198754 !important;
+}
+
+.bg-success {
+    background-color: #198754 !important;
+}
+
+/* Social links hover effects */
+.text-muted:hover {
+    color: #198754 !important;
+    transition: color 0.3s ease;
+}
+
+/* Form focus states */
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+/* Card hover animations */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* Blog post filters */
+.blog-post {
+    transition: all 0.3s ease;
+}
+
+.blog-post.hidden {
+    display: none;
+}
+
+/* Newsletter section */
+.bg-success {
+    background: linear-gradient(135deg, #198754 0%, #157347 100%) !important;
+}
+
+/* Footer links */
+footer a:hover {
+    color: #198754 !important;
+    transition: color 0.3s ease;
+}
